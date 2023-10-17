@@ -65,16 +65,11 @@ endif()
 
 # Eigen library.
 # find_package(Eigen3 REQUIRED)
-set(EIGEN3_INCLUDE_DIR
-	../extern/Eigen/Eigen
-)
-
 
 # Set include directories.
 include_directories(
 	include
 	include/Discregrid
-	${EIGEN3_INCLUDE_DIR}
 	../extern
 )
 
