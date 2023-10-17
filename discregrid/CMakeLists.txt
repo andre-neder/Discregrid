@@ -64,7 +64,11 @@ if(OPENMP_FOUND)
 endif()
 
 # Eigen library.
-find_package(Eigen3 REQUIRED)
+# find_package(Eigen3 REQUIRED)
+set(EIGEN3_INCLUDE_DIR
+	../extern/Eigen/Eigen
+)
+
 
 # Set include directories.
 include_directories(
