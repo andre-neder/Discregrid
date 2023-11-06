@@ -71,6 +71,7 @@ include_directories(
 	include
 	include/Discregrid
 	../extern
+	../extern/Eigen
 )
 
 # Disable stupid MSVC compiler warnings.
